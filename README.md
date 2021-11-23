@@ -2,7 +2,7 @@
 A Java-based implementation of [codementor.io's appointment management system](https://www.codementor.io/projects/web/appointment-management-system-compu19a0t) dev project
 using [Quarkus](https://quarkus.io/) and  [Vuejs](https://vuejs.org/).
 
-## Requirements List
+## Requirements
 
 - [ ] Create a login system for users to register an account with the system. You may add social logins like Google or 
   Facebook to enhance the sign up/sign in user experience.
