@@ -1,13 +1,17 @@
-# Codementor.io - Appointment management system
-A Java-based implementation of [codementor.io's appointment management system](https://www.codementor.io/projects/web/appointment-management-system-compu19a0t) dev project
-using [Quarkus](https://quarkus.io/) and  [Vuejs](https://vuejs.org/).
+# DevProjects - Appointment management system
 
-## Requirements
+This is an open source project from [DevProjects](http://www.codementor.io/projects). Feedback and questions are welcome!
+Find the project requirements here: [Appointment management system](https://www.codementor.io/projects/web/appointment-management-system-compu19a0t)
 
-- [ ] Create a login system for users to register an account with the system. You may add social logins like Google or 
-  Facebook to enhance the sign up/sign in user experience.
-- [ ] Use a third party JavaScript library or plugin to display a calendar with the available time slots for selected 
-  time periods (e.g. a week).
-- [ ] A business side admin dashboard for businesses to manage available appointment times and future appointments.
-- [ ] A customer interface where customers can schedule, view, or cancel their appointments with a business.
-- [ ] Use the simplest scheduler (cron job) to send customers email reminders prior to their appointments.
+## Tech/framework used
+Built with Quarkus/Vue.js
+
+## Screenshots and demo
+Screenshots of your app and/or a link to your live demo
+
+## Installation
+Instructions for other developers on how to install and run your code on their local environment.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+Most open source projects use the MIT license. Feel free to choose whichever license you prefer.
