@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  postgres-database:
+    image: postgres:14
+    container_name: postgres-14
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: changeit
+    ports:
+      - "5432:5432"
+    volumes:
+      - "db-data:/var/lib/postgresql/data"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+  webapp:
+    image: appointment-management-system:dev
+    depends_on:
+      postgres-database:
+        condition: service_healthy
+
+
+volumes:
+  db-data:
