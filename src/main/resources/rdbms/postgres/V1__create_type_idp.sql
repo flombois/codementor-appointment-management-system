@@ -1,0 +1,1 @@
+create type idp as enum ('self', 'ldap', 'github')
