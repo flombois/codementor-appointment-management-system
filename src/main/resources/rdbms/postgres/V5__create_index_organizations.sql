@@ -1,0 +1,1 @@
+create index if not exists organizations_index on organizations (display_name)
